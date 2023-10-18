@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:primaryType="cq:Page">
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-07-07T17:58:17.582-07:00"
+        cq:lastModified="{Date}2023-10-09T16:13:24.158-05:00"
         cq:lastModifiedBy="admin"
-        cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/content-page-template"
         jcr:description="Here we answer some of the questions that we hear most often from the community."
         jcr:primaryType="cq:PageContent"
-        jcr:title="FAQs"
-        sling:resourceType="wknd/components/page">
+        jcr:title="Tech"
+        sling:resourceType="wknd/components/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd/components/container">
@@ -21,8 +24,6 @@
                 sling:resourceType="wknd/components/container"
                 layout="responsiveGrid">
                 <container
-                    jcr:created="{Date}2019-10-14T10:19:24.180-07:00"
-                    jcr:createdBy="admin"
                     jcr:lastModified="{Date}2020-07-07T17:57:13.729-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
@@ -44,8 +45,6 @@
                     </cq:responsive>
                     <title
                         cq:styleIds="[1568996484405]"
-                        jcr:created="{Date}2019-10-14T09:28:37.553-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-10-14T09:28:37.553-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -58,8 +57,6 @@
                         </cq:responsive>
                     </title>
                     <image
-                        jcr:created="{Date}2019-10-25T11:23:20.439-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-10-25T16:02:31.787-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -73,8 +70,6 @@
                         </cq:responsive>
                     </image>
                     <text
-                        jcr:created="{Date}2019-10-14T09:28:54.146-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-10-25T11:13:10.055-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -93,8 +88,6 @@
                         </cq:responsive>
                     </text>
                     <accordion
-                        jcr:created="{Date}2019-10-14T09:29:31.848-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-10-25T11:15:13.801-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -112,8 +105,6 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/container">
                             <text
-                                jcr:created="{Date}2019-10-14T09:32:49.895-07:00"
-                                jcr:createdBy="admin"
                                 jcr:lastModified="{Date}2019-10-25T11:16:36.508-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -127,8 +118,6 @@
                             jcr:title="Item 1"
                             sling:resourceType="wknd/components/container">
                             <text
-                                jcr:created="{Date}2019-10-14T09:51:23.154-07:00"
-                                jcr:createdBy="admin"
                                 jcr:lastModified="{Date}2019-10-25T11:17:16.517-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -142,8 +131,6 @@
                             jcr:title="Item 2"
                             sling:resourceType="wknd/components/container">
                             <text
-                                jcr:created="{Date}2019-10-14T10:12:29.401-07:00"
-                                jcr:createdBy="admin"
                                 jcr:lastModified="{Date}2019-10-25T11:17:39.663-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -156,8 +143,6 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/container">
                             <text
-                                jcr:created="{Date}2019-10-14T10:12:54.254-07:00"
-                                jcr:createdBy="admin"
                                 jcr:lastModified="{Date}2019-10-25T11:18:11.562-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -170,8 +155,6 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/container">
                             <text
-                                jcr:created="{Date}2019-10-14T10:13:09.156-07:00"
-                                jcr:createdBy="admin"
                                 jcr:lastModified="{Date}2019-10-25T11:18:36.836-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -184,8 +167,6 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/container">
                             <text
-                                jcr:created="{Date}2019-10-25T11:18:51.723-07:00"
-                                jcr:createdBy="admin"
                                 jcr:lastModified="{Date}2019-10-25T11:19:08.411-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -198,8 +179,6 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/container">
                             <text
-                                jcr:created="{Date}2019-10-25T11:19:22.144-07:00"
-                                jcr:createdBy="admin"
                                 jcr:lastModified="{Date}2019-10-25T11:19:41.501-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -217,8 +196,6 @@
                     </accordion>
                 </container>
                 <container_293505757
-                    jcr:created="{Date}2019-10-14T10:20:06.270-07:00"
-                    jcr:createdBy="admin"
                     jcr:lastModified="{Date}2019-10-14T10:20:06.270-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
@@ -239,15 +216,11 @@
                     </cq:responsive>
                     <separator
                         cq:styleIds="[1571075919520,1571075910473]"
-                        jcr:created="{Date}2019-10-14T13:49:29.760-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-10-14T13:49:29.760-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/separator"/>
                     <title
-                        jcr:created="{Date}2019-10-14T10:21:03.118-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-10-14T10:21:13.842-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -263,8 +236,6 @@
                     </title>
                     <text
                         cq:styleIds="[1571074070335]"
-                        jcr:created="{Date}2019-10-14T10:21:26.357-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-10-14T10:31:09.107-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -281,5 +252,11 @@
                 </container_293505757>
             </container>
         </root>
+        <cq:featuredimage
+            jcr:lastModified="{Date}2023-10-09T16:13:24.153-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="false"/>
     </jcr:content>
 </jcr:root>

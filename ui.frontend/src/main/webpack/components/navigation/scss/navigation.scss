@@ -19,3 +19,13 @@
 @import 'styles/nav-footer';
 @import 'styles/nav-header';
 @import 'styles/nav-mobile';
+
+.cmp-navigation {
+  padding-top: 27px;
+}
+
+.navigation {
+  float: right !important;
+  padding-right: 0 !important;
+}
+

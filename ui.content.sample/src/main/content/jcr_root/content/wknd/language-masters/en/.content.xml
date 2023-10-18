@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:primaryType="cq:Page">
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
     <errors/>
     <jcr:content
         cq:lastModified="{Date}2020-09-30T17:28:29.020-07:00"
@@ -16,8 +17,6 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd/components/container">
             <container
-                jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
-                jcr:createdBy="admin"
                 jcr:lastModified="{Date}2020-09-30T17:28:07.353-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
@@ -25,8 +24,6 @@
                 layout="responsiveGrid">
                 <carousel
                     cq:styleIds="[1555545421827]"
-                    jcr:created="{Date}2019-10-24T14:45:16.689-07:00"
-                    jcr:createdBy="admin"
                     jcr:lastModified="{Date}2019-10-25T17:30:19.860-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
@@ -77,8 +74,6 @@
                     <teaser
                         cq:panelTitle="Downhill Skiing Wyoming"
                         cq:styleIds="[1555543212672]"
-                        jcr:created="{Date}2019-10-24T14:45:29.211-07:00"
-                        jcr:createdBy="admin"
                         jcr:description="&lt;p>A skiers paradise far from crowds and close to nature with terrain so vast it appears uncharted.&lt;/p>&#xd;&#xa;"
                         jcr:lastModified="{Date}2020-09-30T15:17:28.015-07:00"
                         jcr:lastModifiedBy="admin"
@@ -99,8 +94,6 @@
                 </carousel>
                 <container
                     cq:styleIds="[1554340406437]"
-                    jcr:created="{Date}2019-04-17T14:31:50.612-07:00"
-                    jcr:createdBy="admin"
                     jcr:lastModified="{Date}2020-09-30T17:28:16.548-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
@@ -109,8 +102,6 @@
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
                     <teaser
                         cq:styleIds="[1555539443529]"
-                        jcr:created="{Date}2020-09-30T13:07:54.567-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2020-09-30T15:16:26.184-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -132,8 +123,6 @@
                     </teaser>
                     <title
                         cq:styleIds="[1568996484405]"
-                        jcr:created="{Date}2019-10-21T10:52:07.675-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-10-21T10:52:21.030-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -141,8 +130,6 @@
                         sling:resourceType="wknd/components/title"
                         type="h2"/>
                     <image_list
-                        jcr:created="{Date}2019-10-18T19:42:10.049-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-10-25T17:59:48.145-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -155,27 +142,21 @@
                         tagsMatch="any"/>
                     <button_copy
                         cq:styleIds="[1570236090914]"
-                        jcr:created="{Date}2019-10-25T18:00:29.618-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2020-09-30T15:15:08.239-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="All Articles"
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="read our articles"
-                        linkURL="/content/wknd/language-masters/en/magazine"
-                        linkTarget="_self"/>
+                        linkTarget="_self"
+                        linkURL="/content/wknd/language-masters/en/magazine"/>
                     <separator
-                        jcr:created="{Date}2019-10-27T16:13:09.680-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-10-27T16:13:09.680-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/separator"/>
                     <title_15771435
                         cq:styleIds="[1568996484405]"
-                        jcr:created="{Date}2019-10-21T11:30:37.023-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-10-21T11:30:47.328-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -185,8 +166,6 @@
                 </container>
                 <teaser
                     cq:styleIds="[1572035150600]"
-                    jcr:created="{Date}2019-10-21T11:31:11.525-07:00"
-                    jcr:createdBy="admin"
                     jcr:description="&lt;p>With WKND Adventures, you don't just see the world-- you experience its cultures, flavors and wonders.&lt;/p>&#xd;&#xa;"
                     jcr:lastModified="{Date}2019-10-27T16:12:59.312-07:00"
                     jcr:lastModifiedBy="admin"
@@ -207,8 +186,6 @@
                 </teaser>
                 <container_1679842506
                     cq:styleIds="[1554340406437]"
-                    jcr:created="{Date}2019-10-21T11:34:41.155-07:00"
-                    jcr:createdBy="admin"
                     jcr:lastModified="{Date}2020-09-30T17:28:28.996-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
@@ -216,8 +193,6 @@
                     layout="responsiveGrid">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
                     <title
-                        jcr:created="{Date}2019-10-21T11:34:50.251-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-10-21T11:35:03.383-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -225,8 +200,6 @@
                         sling:resourceType="wknd/components/title"
                         type="h3"/>
                     <image_list
-                        jcr:created="{Date}2019-10-21T11:36:26.114-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-10-25T18:00:14.772-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -240,19 +213,15 @@
                         tagsMatch="any"/>
                     <button
                         cq:styleIds="[1570236090914]"
-                        jcr:created="{Date}2019-10-25T18:00:29.618-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2020-09-30T15:15:32.005-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="All Trips"
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="explore our adventures"
-                        linkURL="/content/wknd/language-masters/en/adventures"
-                        linkTarget="_self"/>
+                        linkTarget="_self"
+                        linkURL="/content/wknd/language-masters/en/adventures"/>
                     <separator
-                        jcr:created="{Date}2019-10-21T11:37:59.604-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-10-21T11:37:59.604-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"

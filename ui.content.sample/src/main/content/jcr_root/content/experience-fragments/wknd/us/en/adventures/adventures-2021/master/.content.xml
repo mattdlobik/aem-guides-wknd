@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:primaryType="cq:Page">
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
     <jcr:content
         cq:lastModified="{Date}2020-11-11T15:06:38.526-08:00"
         cq:lastModifiedBy="admin"
@@ -16,8 +17,6 @@
             sling:resourceType="wknd/components/container"
             layout="responsiveGrid">
             <container
-                jcr:created="{Date}2019-09-13T14:22:51.213-07:00"
-                jcr:createdBy="admin"
                 jcr:lastModified="{Date}2020-11-11T14:55:48.781-08:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
@@ -26,8 +25,6 @@
                 layout="responsiveGrid">
                 <container
                     cq:styleIds="[1570043787082]"
-                    jcr:created="{Date}2020-11-11T14:55:30.756-08:00"
-                    jcr:createdBy="admin"
                     jcr:lastModified="{Date}2020-11-11T14:58:34.366-08:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
@@ -35,16 +32,12 @@
                     layout="responsiveGrid">
                     <separator
                         cq:styleIds="[1571075910473]"
-                        jcr:created="{Date}2020-11-11T15:02:53.912-08:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2020-11-11T15:02:53.912-08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/separator"/>
                     <title
                         cq:masterBuildingBlock="{Boolean}true"
-                        jcr:created="{Date}2020-11-11T14:40:22.811-08:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2020-11-11T14:58:03.356-08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -68,8 +61,6 @@
                             textIsRich="true"/>
                         <item366044958934679
                             cq:styleIds="[1571075856942,1571075969668]"
-                            jcr:created="{Date}2020-11-11T14:45:39.738-08:00"
-                            jcr:createdBy="admin"
                             jcr:lastModified="{Date}2020-11-11T14:45:39.738-08:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
@@ -83,8 +74,6 @@
                     </title>
                     <teaser
                         cq:styleIds="[1605057868937]"
-                        jcr:created="{Date}2020-11-11T14:43:42.025-08:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2020-11-11T14:44:18.557-08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:primaryType="cq:Page">
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
     <jcr:content
         cq:lastModified="{Date}2020-09-30T17:38:07.368-07:00"
         cq:lastModifiedBy="admin"
@@ -22,8 +23,6 @@
             <container
                 cq:lastRolledout="{Date}2020-09-30T17:38:07.261-07:00"
                 cq:lastRolledoutBy="admin"
-                jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
-                jcr:createdBy="admin"
                 jcr:lastModified="{Date}2020-09-30T17:38:07.249-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
@@ -34,8 +33,6 @@
                     cq:lastRolledout="{Date}2020-09-30T17:38:07.272-07:00"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1554340406437]"
-                    jcr:created="{Date}2019-10-25T15:02:48.785-07:00"
-                    jcr:createdBy="admin"
                     jcr:lastModified="{Date}2020-09-30T17:38:07.264-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
@@ -49,8 +46,6 @@
                     <title
                         cq:lastRolledout="{Date}2020-09-30T17:38:07.281-07:00"
                         cq:lastRolledoutBy="admin"
-                        jcr:created="{Date}2019-10-25T15:03:29.925-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2020-09-30T17:38:07.278-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
@@ -61,8 +56,6 @@
                     cq:lastRolledout="{Date}2020-09-30T17:38:07.287-07:00"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1555543212672]"
-                    jcr:created="{Date}2019-10-25T14:14:21.361-07:00"
-                    jcr:createdBy="admin"
                     jcr:description="&lt;p>With WKND Adventures, you don't just see the world -- you experience its cultures, flavors and wonders.&lt;/p>&#xd;&#xa;"
                     jcr:lastModified="{Date}2020-09-30T17:38:07.283-07:00"
                     jcr:lastModifiedBy="admin"
@@ -93,8 +86,6 @@
                     cq:lastRolledout="{Date}2020-09-30T17:38:07.302-07:00"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1554340406437]"
-                    jcr:created="{Date}2020-07-07T18:14:31.385-07:00"
-                    jcr:createdBy="admin"
                     jcr:lastModified="{Date}2020-09-30T17:38:07.293-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
@@ -105,8 +96,6 @@
                         cq:lastRolledout="{Date}2020-09-30T17:38:07.308-07:00"
                         cq:lastRolledoutBy="admin"
                         cq:styleIds="[1568996484405]"
-                        jcr:created="{Date}2019-10-25T14:14:31.799-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2020-09-30T17:38:07.306-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
@@ -117,8 +106,6 @@
                     <tabs
                         cq:lastRolledout="{Date}2020-09-30T17:38:07.325-07:00"
                         cq:lastRolledoutBy="admin"
-                        jcr:created="{Date}2019-10-25T14:15:37.019-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2020-09-30T17:38:07.310-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
@@ -216,8 +203,6 @@
                     <separator
                         cq:lastRolledout="{Date}2020-09-30T17:38:07.370-07:00"
                         cq:lastRolledoutBy="admin"
-                        jcr:created="{Date}2019-10-25T15:05:25.511-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2020-09-30T17:38:07.366-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"

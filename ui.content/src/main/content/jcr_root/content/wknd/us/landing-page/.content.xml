@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-10-09T03:17:05.079-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/content-page-template"
+        jcr:language="en_us"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="HubLife - Landing Page"
+        sling:resourceType="wknd/components/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <container
+                cq:styleIds="[1554340406437]"
+                jcr:lastModified="{Date}2020-07-07T17:56:08.327-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
+                <container_1775019625
+                    jcr:lastModified="{Date}2023-10-06T15:31:44.774-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container"
+                    id="hublife-landing-columns">
+                    <container
+                        jcr:lastModified="{Date}2023-10-06T15:27:22.638-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/container">
+                        <title
+                            cq:styleLabel="wellness main-column"
+                            jcr:lastModified="{Date}2023-10-09T03:16:53.785-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Wellness"
+                            sling:resourceType="wknd/components/title"
+                            id="wellness"
+                            linkTarget="_self"
+                            type="h2"/>
+                    </container>
+                    <container_580317016
+                        jcr:lastModified="{Date}2023-10-06T15:27:51.127-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/container">
+                        <title
+                            cq:styleLabel="tech main-column"
+                            jcr:lastModified="{Date}2023-10-09T03:16:58.828-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Tech"
+                            sling:resourceType="wknd/components/title"
+                            id="tech"
+                            linkTarget="_self"
+                            type="h2"/>
+                    </container_580317016>
+                    <container_1798263005
+                        jcr:lastModified="{Date}2023-10-06T15:28:02.014-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/container">
+                        <title
+                            cq:styleLabel="sports main-column"
+                            jcr:lastModified="{Date}2023-10-09T03:17:05.077-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Sports"
+                            sling:resourceType="wknd/components/title"
+                            id="sports"
+                            linkTarget="_self"
+                            type="h2"/>
+                    </container_1798263005>
+                </container_1775019625>
+                <title
+                    jcr:lastModified="{Date}2023-10-05T23:45:27.309-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Featured Articles"
+                    sling:resourceType="wknd/components/title"
+                    linkTarget="_self"
+                    type="h2"/>
+                <container
+                    jcr:lastModified="{Date}2023-10-05T22:56:32.520-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container">
+                    <teaser
+                        cq:styleIds="[1572035150600]"
+                        jcr:description="&lt;p>Mindfulness is more than a buzzword; it&amp;#39;s a transformative practice that can elevate our daily experiences. By anchoring ourselves in the present moment, we can reduce stress and enhance our overall well-being. Whether it&amp;#39;s through meditation, deep breathing, or simply paying attention to the sensations around us, these techniques can lead to profound changes in our mental and emotional health. As we embrace mindfulness, we unlock a life of increased clarity, joy, and fulfillment.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2023-10-05T23:07:37.671-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title=" The Power of Mindfulness in Everyday Life"
+                        sling:resourceType="wknd/components/teaser"
+                        alt="Yoga"
+                        altValueFromDAM="false"
+                        descriptionFromPage="false"
+                        disableLazyLoading="false"
+                        fileReference="/content/dam/wknd-shared/en/homepage/jeremy-thomas-FO7bKvgETgQ-unsplash.jpg"
+                        imageFromPageImage="false"
+                        isDecorative="false"
+                        linkTarget="_self"
+                        pretitle="Featured Article in Wellness"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/wknd/us/en/magazine/western-australia"
+                                linkTarget="_self"
+                                text="Full Article"/>
+                        </actions>
+                    </teaser>
+                    <teaser_copy
+                        cq:styleIds="[1572035150600]"
+                        jcr:description="&lt;p>Quantum computing is no longer the stuff of science fiction; it's today's technological revolution shaping tomorrow. By harnessing the principles of quantum mechanics, these machines promise to solve complex problems in seconds, tasks which traditional computers might take millennia to crack. With implications ranging from unbreakable encryption to groundbreaking medical research, the quantum era heralds a future of limitless possibilities. As innovators race to build the first scalable quantum computer, one thing is certain: the digital landscape is about to be forever transformed.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2023-10-05T23:08:36.054-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Breaking Boundaries: The Dawn of Quantum Computing"
+                        sling:resourceType="wknd/components/teaser"
+                        alt="Quantum"
+                        altValueFromDAM="false"
+                        descriptionFromPage="false"
+                        disableLazyLoading="false"
+                        fileReference="/content/dam/wknd-shared/en/homepage/dan-cristian-padure-h3kuhYUCE9A-unsplash.jpg"
+                        imageFromPageImage="false"
+                        isDecorative="false"
+                        linkTarget="_self"
+                        pretitle="Featured Article in Technology"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/wknd/us/en/magazine/western-australia"
+                                linkTarget="_self"
+                                text="Full Article"/>
+                        </actions>
+                    </teaser_copy>
+                    <teaser_copy_copy
+                        cq:styleIds="[1572035150600]"
+                        jcr:description="&lt;p>Extreme sports are pushing the boundaries of what we once deemed possible, capturing the world's attention with thrilling feats and jaw-dropping stunts. Whether it's skydiving from unimaginable heights or shredding waves on a surfboard, athletes are redefining the limits of human capability. With innovations in equipment and training, the next generation is taking sportsmanship to unprecedented levels. As arenas and skies light up with these adrenaline-packed displays, it's clear: the future of sports is not just exciting, it's revolutionary!&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2023-10-05T23:10:02.661-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Unleashing the Future: The Rise of Extreme Sports"
+                        sling:resourceType="wknd/components/teaser"
+                        alt="Sports"
+                        altValueFromDAM="false"
+                        descriptionFromPage="false"
+                        disableLazyLoading="false"
+                        fileReference="/content/dam/wknd-shared/en/homepage/roberto-nickson-WvRMzYER6FM-unsplash.jpg"
+                        imageFromPageImage="false"
+                        isDecorative="false"
+                        linkTarget="_self"
+                        pretitle="Featured Article in Sports"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/wknd/us/en/magazine/western-australia"
+                                linkTarget="_self"
+                                text="Full Article"/>
+                        </actions>
+                    </teaser_copy_copy>
+                </container>
+            </container>
+        </root>
+        <cq:featuredimage
+            jcr:lastModified="{Date}2023-10-06T01:22:58.537-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="true"
+            fileReference="/content/dam/wknd-shared/en/homepage/kaylee-garrett-GaprWyIw66o-unsplash.jpg"/>
+        <image
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/wknd-shared/en/homepage/kaylee-garrett-GaprWyIw66o-unsplash.jpg"/>
+    </jcr:content>
+</jcr:root>

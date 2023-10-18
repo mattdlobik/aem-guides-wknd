@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:primaryType="cq:Page">
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-09-30T17:29:36.258-07:00"
+        cq:lastModified="{Date}2023-10-09T16:13:12.360-05:00"
         cq:lastModifiedBy="admin"
-        cq:tags="[wknd-shared:customer-journey/attract,wknd-shared:customer-journey/engage,wknd-shared:activity/surfing]"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
         jcr:description="Join us on one of our next adventures.  Browse our list of curated experiences and sign up for one when you're ready to explore with us."
         jcr:primaryType="cq:PageContent"
-        jcr:title="Adventures"
-        sling:resourceType="wknd/components/page">
+        jcr:title="Wellness"
+        sling:resourceType="wknd/components/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd/components/container">
             <container
-                jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
-                jcr:createdBy="admin"
                 jcr:lastModified="{Date}2020-09-30T17:29:23.335-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
@@ -23,16 +24,12 @@
                 layout="responsiveGrid">
                 <container
                     cq:styleIds="[1554340406437]"
-                    jcr:created="{Date}2019-10-25T15:02:48.785-07:00"
-                    jcr:createdBy="admin"
                     jcr:lastModified="{Date}2019-10-25T15:02:48.785-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/container">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
                     <title
-                        jcr:created="{Date}2019-10-25T15:03:29.925-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-10-25T15:03:29.925-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -40,8 +37,6 @@
                 </container>
                 <teaser
                     cq:styleIds="[1555543212672]"
-                    jcr:created="{Date}2019-10-25T14:14:21.361-07:00"
-                    jcr:createdBy="admin"
                     jcr:description="&lt;p>With WKND Adventures, you don't just see the world -- you experience its cultures, flavors and wonders.&lt;/p>&#xd;&#xa;"
                     jcr:lastModified="{Date}2019-10-25T14:51:28.499-07:00"
                     jcr:lastModifiedBy="admin"
@@ -62,8 +57,6 @@
                 </teaser>
                 <container_492051859
                     cq:styleIds="[1554340406437]"
-                    jcr:created="{Date}2020-07-07T18:14:31.385-07:00"
-                    jcr:createdBy="admin"
                     jcr:lastModified="{Date}2020-09-30T17:29:36.247-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
@@ -71,8 +64,6 @@
                     layout="responsiveGrid">
                     <title
                         cq:styleIds="[1568996484405]"
-                        jcr:created="{Date}2019-10-25T14:14:31.799-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-10-25T14:33:34.271-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -80,8 +71,6 @@
                         sling:resourceType="wknd/components/title"
                         type="h2"/>
                     <tabs
-                        jcr:created="{Date}2019-10-25T14:15:37.019-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-10-25T14:17:01.893-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -158,8 +147,6 @@
                             tagsMatch="any"/>
                     </tabs>
                     <separator
-                        jcr:created="{Date}2019-10-25T15:05:25.511-07:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-10-25T15:05:25.511-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -167,6 +154,12 @@
                 </container_492051859>
             </container>
         </root>
+        <cq:featuredimage
+            jcr:lastModified="{Date}2023-10-09T16:13:12.355-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="false"/>
     </jcr:content>
     <ski-touring-mont-blanc/>
     <riverside-camping-australia/>

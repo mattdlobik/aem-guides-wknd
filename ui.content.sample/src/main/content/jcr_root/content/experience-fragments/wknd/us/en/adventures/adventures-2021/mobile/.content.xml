@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:primaryType="cq:Page">
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
     <jcr:content
         cq:lastModified="{Date}2020-11-11T15:26:26.976-08:00"
         cq:lastModifiedBy="admin"
@@ -16,8 +17,6 @@
             layout="responsiveGrid">
             <container
                 cq:styleIds="[1570043787082]"
-                jcr:created="{Date}2019-09-13T14:22:51.213-07:00"
-                jcr:createdBy="admin"
                 jcr:lastModified="{Date}2019-09-13T14:23:01.260-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
@@ -25,8 +24,6 @@
                 layout="responsiveGrid">
                 <buildingblock_484235013
                     cq:masterBuildingBlockPath="/content/experience-fragments/wknd/us/en/adventures/adventures-2021/master/jcr:content/root/container/container/title"
-                    jcr:created="{Date}2020-11-11T15:25:24.171-08:00"
-                    jcr:createdBy="admin"
                     jcr:lastModified="{Date}2020-11-11T15:25:24.171-08:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
@@ -49,8 +46,6 @@
                         textIsRich="true"/>
                     <item366044958934679
                         cq:styleIds="[1571075856942,1571075969668]"
-                        jcr:created="{Date}2020-11-11T14:45:39.738-08:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2020-11-11T14:45:39.738-08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -63,8 +58,6 @@
                     </cq:responsive>
                 </buildingblock_484235013>
                 <image
-                    jcr:created="{Date}2020-11-11T15:25:49.715-08:00"
-                    jcr:createdBy="admin"
                     jcr:lastModified="{Date}2020-11-11T15:26:16.635-08:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"

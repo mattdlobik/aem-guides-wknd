@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:primaryType="cq:Page">
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
     <jcr:content
         cq:lastModified="{Date}2020-11-11T15:03:39.116-08:00"
         cq:lastModifiedBy="admin"
@@ -23,8 +24,6 @@
             <container
                 cq:lastRolledout="{Date}2020-11-11T15:03:39.072-08:00"
                 cq:lastRolledoutBy="admin"
-                jcr:created="{Date}2019-09-13T14:22:51.213-07:00"
-                jcr:createdBy="admin"
                 jcr:lastModified="{Date}2020-11-11T15:03:39.070-08:00"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
@@ -36,8 +35,6 @@
                     cq:lastRolledout="{Date}2020-11-11T15:03:39.081-08:00"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1570043787082]"
-                    jcr:created="{Date}2020-11-11T14:55:30.756-08:00"
-                    jcr:createdBy="admin"
                     jcr:lastModified="{Date}2020-11-11T15:03:39.074-08:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
@@ -48,8 +45,6 @@
                         cq:lastRolledout="{Date}2020-11-11T15:03:39.117-08:00"
                         cq:lastRolledoutBy="admin"
                         cq:styleIds="[1571075910473]"
-                        jcr:created="{Date}2020-11-11T15:02:53.912-08:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2020-11-11T15:02:53.912-08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
@@ -59,8 +54,6 @@
                         cq:lastRolledout="{Date}2020-11-11T15:03:39.094-08:00"
                         cq:lastRolledoutBy="admin"
                         cq:masterBuildingBlock="{Boolean}true"
-                        jcr:created="{Date}2020-11-11T14:40:22.811-08:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2020-11-11T15:03:39.084-08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
@@ -93,8 +86,6 @@
                             cq:lastRolledout="{Date}2020-11-11T15:03:39.109-08:00"
                             cq:lastRolledoutBy="admin"
                             cq:styleIds="[1571075856942,1571075969668]"
-                            jcr:created="{Date}2020-11-11T14:45:39.738-08:00"
-                            jcr:createdBy="admin"
                             jcr:lastModified="{Date}2020-11-11T15:03:39.106-08:00"
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
@@ -119,8 +110,6 @@
                         cq:lastRolledout="{Date}2020-11-11T15:00:51.418-08:00"
                         cq:lastRolledoutBy="admin"
                         cq:styleIds="[1605057868937]"
-                        jcr:created="{Date}2020-11-11T14:43:42.025-08:00"
-                        jcr:createdBy="admin"
                         jcr:lastModified="{Date}2020-11-11T15:01:42.640-08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSyncCancelled]"
